@@ -23,7 +23,7 @@ order by 1,2
 Select Location, date, total_cases,total_deaths, (total_deaths/total_cases)*100 as DeathPercentage
 From CovidDeaths
 Where location = 'Asia'
-and continent is not null 
+--and continent is not null 
 order by 1,2
 
 
